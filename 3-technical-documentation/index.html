@@ -3,54 +3,78 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>A. P. J. Abdul Kalam Tribute</title>
-  <link rel="stylesheet" href="styles.css" />
+  <title>Technical Documentation</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <main id="main">
-    <h1 id="title">Dr. A. P. J. Abdul Kalam – Missile Man & People's President</h1>
+  <nav id="navbar">
+    <header>Tech Docs</header>
+    <a class="nav-link" href="#Introduction">Introduction</a>
+    <a class="nav-link" href="#HTML_Basics">HTML Basics</a>
+    <a class="nav-link" href="#CSS_Basics">CSS Basics</a>
+    <a class="nav-link" href="#JavaScript">JavaScript</a>
+    <a class="nav-link" href="#Accessibility">Accessibility</a>
+  </nav>
 
-    <div id="img-div">
-      <img
-        id="image"
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/APJ_Abdul_Kalam.jpg/800px-APJ_Abdul_Kalam.jpg"
-        alt="Dr. A. P. J. Abdul Kalam smiling"
-      />
-      <div id="img-caption">
-        Dr. Kalam, known as India's “Missile Man” and former President, inspiring the nation.
-      </div>
-    </div>
-
-    <section id="tribute-info">
-      <p>
-        Avul Pakir Jainulabdeen Abdul Kalam (15 Oct 1931 – 27 Jul 2015) was an Indian aerospace scientist
-        and statesman who served as the 11<sup>th</sup> President of India from 2002–2007 :contentReference[oaicite:2]{index=2}. Born in Rameswaram, Tamil Nadu, he studied physics and aerospace engineering before
-        contributing to India's civilian space and military missile programs at DRDO and ISRO :contentReference[oaicite:3]{index=3}.
-      </p>
-      <p>
-        Known as the “Missile Man of India,” he led key projects: the SLV‑III satellite launch vehicle,
-        the AGNI and PRITHVI missiles, and played a pivotal role in the 1998 Pokhran‑II nuclear tests :contentReference[oaicite:4]{index=4}.
-      </p>
-      <p>
-        Elected President in 2002 with support across India's political spectrum, he earned the title
-        “People’s President” for his humility and connection with the public :contentReference[oaicite:5]{index=5}.
-        Post‑presidency, he inspired millions—especially youth—through books like <em>Wings of Fire</em>,
-        <em>Ignited Minds</em>, and <em>India 2020</em> :contentReference[oaicite:6]{index=6}.
-      </p>
-      <p>
-        He passed away from cardiac arrest in 2015 while delivering a lecture at IIM Shillong; India
-        observed seven days of mourning :contentReference[oaicite:7]{index=7}. His legacy lives on—honoured
-        with the Bharat Ratna (1997) and memorialized in Rameswaram with the Dr. A. P. J. Abdul Kalam Memorial :contentReference[oaicite:8]{index=8}.
-      </p>
+  <main id="main-doc">
+    <section class="main-section" id="Introduction">
+      <header>Introduction</header>
+      <p>This page introduces essential web technologies.</p>
+      <p>You'll learn how to structure content with HTML.</p>
+      <p>You'll also style it using CSS.</p>
+      <code>// This is an example JavaScript comment</code>
+      <ul><li>Start with structure</li></ul>
     </section>
 
-    <a
-      id="tribute-link"
-      href="https://en.wikipedia.org/wiki/A._P._J._Abdul_Kalam"
-      target="_blank"
-    >
-      Learn more about Dr. A. P. J. Abdul Kalam
-    </a>
+    <section class="main-section" id="HTML_Basics">
+      <header>HTML Basics</header>
+      <p>HTML is the foundation of all websites.</p>
+      <p>It uses tags like &lt;div&gt; and &lt;p&gt; to organize content.</p>
+      <p>Each HTML document starts with &lt;!DOCTYPE html&gt;.</p>
+      <code>&lt;p&gt;This is a paragraph&lt;/p&gt;</code>
+      <ul>
+        <li>Paragraphs</li>
+        <li>Lists</li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="CSS_Basics">
+      <header>CSS Basics</header>
+      <p>CSS lets you change colors, spacing, and layout.</p>
+      <p>You can apply styles with classes or IDs.</p>
+      <code>body { background-color: white; }</code>
+      <code>.title { font-size: 2rem; }</code>
+      <ul>
+        <li>Selectors</li>
+        <li>Properties</li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="JavaScript">
+      <header>JavaScript</header>
+      <p>JS allows you to respond to user actions.</p>
+      <p>You can update the DOM without reloading the page.</p>
+      <p>Functions are reusable blocks of code.</p>
+      <code>function greet() { alert('Hello!'); }</code>
+      <ul>
+        <li>Functions</li>
+        <li>Events</li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="Accessibility">
+      <header>Accessibility</header>
+      <p>Build websites everyone can use.</p>
+      <p>Use semantic HTML for better screen reader support.</p>
+      <p>Always add alt text to images.</p>
+      <code>&lt;img src="cat.jpg" alt="Cute cat"&gt;</code>
+      <ul>
+        <li>Screen readers</li>
+        <li>Keyboard support</li>
+      </ul>
+    </section>
   </main>
 </body>
 </html>
+
+
