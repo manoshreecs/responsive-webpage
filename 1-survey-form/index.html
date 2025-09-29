@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Survey form</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <h1 id="title">Food Preferences Survey</h1>
+  <p id="description">Help us learn more about your dietary choices and favorite foods!</p>
+<form id="survey-form">
+    <label id="name-label" for="name">Name:</label>
+    <input type="text" id="name" name="name" required placeholder="Enter your full name" />
+    <label id="email-label" for="email">Email:</label>
+    <input type="email" id="email" name="email" required placeholder="Enter your email id" />
+    <label id="number-label" for="number">Age:</label>
+    <input type="number" id="number" name="age" min="10" max="100" required placeholder="Enter your Age" />
+    <label for="dropdown">What type of diet do you follow?</label>
+    <select id="dropdown" name="diet">
+      <option value="omnivore">Omnivore</option>
+      <option value="vegetarian">Vegetarian</option>
+      <option value="Nonvegetarian">Vegan</option>
+      </select>
+      <p>What is your favourite meal of your day</p>
+      <label>
+        <input type="radio" name="meal-time" value="breakfast" /> Breakfast
+        </label>
+        <label>
+          <input type="radio" name="meal-time" value="Lunch"/> Lunch
+          </label>
+          <label>
+            <input type="radio" name="meal-time" value="Snacks"/> Snacks
+            <label>
+              <input type="radio" name="meal-time" value="Dinner"/>Dinner
+              </label>
+                <p>Which cuisines do you enjoy? (Check all that apply)</p>
+    <label>
+      <input type="checkbox" name="cuisine" value="italian" /> Italian
+    </label>
+    <label>
+      <input type="checkbox" name="cuisine" value="chinese" /> Chinese
+    </label>
+    <label>
+      <input type="checkbox" name="cuisine" value="mexican" /> Mexican
+    </label>
+    <label>
+      <input type="checkbox" name="cuisine" value="indian" /> Indian
+    </label>
+    <label>
+      <input type="checkbox" name="cuisine" value="thai" /> Thai
+      </label>
+      <label for="comments">Tell us about your favorite dish:</label>
+    <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Describe your favorite dish..."></textarea>
+    <button type="submit" id="submit">Submit</button>
+
+  </form>
+
+</body>
+</html
