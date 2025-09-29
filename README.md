@@ -1,4 +1,4 @@
-# Responsive Web Design Projects
+# Responsive Web Design 
 
 This repository contains all **five projects** I built while completing the  
 [freeCodeCamp Responsive Web Design Certification](https://www.freecodecamp.org/learn).
