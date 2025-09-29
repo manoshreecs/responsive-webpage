@@ -10,7 +10,4 @@ This repository contains all **five projects** I built while completing the
 4. **Product Landing Page** – Landing page for a fictional product.
 5. **Personal Portfolio** – A simple portfolio showcasing all projects.
 
-## 🚀 How to View
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/your-username/freeCodeCamp-Responsive-Web-Design-Projects.git
+
