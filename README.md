@@ -1,6 +1,6 @@
 # Responsive Web Design Projects
 
-This repository contains projects I built while learning **Responsive Web Design, HTML, CSS, and JavaScript**.  
+This repository contains projects I built while learning **Responsive Web Design, HTML, CSS.  
 All projects are fully responsive, accessible, and designed to work on multiple devices and screen sizes.
 
 ---
